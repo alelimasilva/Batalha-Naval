@@ -1,4 +1,3 @@
-
 #define N 9
 
 int player1[N][N];

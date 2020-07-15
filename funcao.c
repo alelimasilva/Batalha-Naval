@@ -2,7 +2,6 @@
 #include<stdlib.h>
 #include"funcao.h"
 
-
 void inicializar(int player[N][N]){
 
     int i,j;
@@ -12,6 +11,7 @@ void inicializar(int player[N][N]){
             player[i][j] = 0;
 
 }
+
 
 void print_campo(int player[N][N], int num_player){
 
@@ -79,7 +79,7 @@ void add_barco1x1(int player[N][N], int num_player){
             system("cls");
         }
         else{
-            player[linha-1][coluna-1] = 1; // barco escondido
+            player[linha-1][coluna-1] = 1;
             flag_addbarco++;
             printf("Barco adicionado com sucesso!\n");
             system("pause");
