@@ -31,9 +31,3 @@ int main(){
     }
     return 0;
 }
-
-
-// 0 = agua (~)
-// 1 = barco escondido(~)
-// 2 = tiro no barco (X)
-// 3 = tiro na agua (*)
